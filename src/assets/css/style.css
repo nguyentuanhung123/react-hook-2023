@@ -1,0 +1,12 @@
+@import url(../../components/Layout/Content/content.css);
+@import url(../../components/Layout/Nav/header.css);
+@import url(../../components/Layout/Sidebar/sidebar.css);
+@import url(../../components/Layout/Footer/footer.css);
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 50px 1fr 100px;
+}
