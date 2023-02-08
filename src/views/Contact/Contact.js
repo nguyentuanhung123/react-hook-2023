@@ -45,7 +45,7 @@ const Contact = () => {
                                         <Link to="/user-view" className="btn btn-primary">
                                             View
                                         </Link>
-                                        <Link to="/user-edit" className="btn btn-edit">
+                                        <Link to={`/user-edit/${contact.id}`} className="btn btn-edit">
                                             Edit
                                         </Link>
                                         <Link to="/user-delete" className="btn btn-delete">
