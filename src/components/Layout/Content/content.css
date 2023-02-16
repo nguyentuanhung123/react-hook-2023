@@ -1,6 +1,6 @@
 .content {
     grid-column: 2/3;
-    grid-template-rows: 2/3;
+    grid-row: 2/3;
     /*background-color: yellow;*/
     /* height: calc(100% - 50px - 100px); */
     overflow-y: auto;

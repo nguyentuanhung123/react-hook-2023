@@ -30,6 +30,7 @@ const EditContact = () => {
         e.preventDefault();
         await axios.put(`http://localhost:3006/contacts/${contactId}`, contact);
         navigate("/");
+        // alert("Edit suceess");
     }
 
     const loadContact = async (e) => {

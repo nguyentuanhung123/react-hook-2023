@@ -42,7 +42,7 @@
     border-radius: 50%;
 }
 
-span {
+.center span {
     color: #737373;
     font-size: 20px;
     text-transform: uppercase;

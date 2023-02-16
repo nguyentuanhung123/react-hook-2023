@@ -27,6 +27,7 @@ const Contact = () => {
                     </tr>
                 </thead>
                 <tbody>
+
                     {
                         isLoading === true && <tr>
                             <td colSpan="4" style={{ textAlign: "center" }}><Loading /></td>
@@ -41,16 +42,16 @@ const Contact = () => {
                                     <td style={{ width: "30px" }}>{index + 1}</td>
                                     <td style={{ width: "300px" }}>{contact.name}</td>
                                     <td style={{ width: "300px" }}>{contact.email}</td>
-                                    <td>
-                                        <Link to="/user-view" className="btn btn-primary">
+                                    <td style={{ display: "flex" }}>
+                                        <Link to={`/user-view/${contact.id}`} className="btn btn-primary">
                                             View
                                         </Link>
                                         <Link to={`/user-edit/${contact.id}`} className="btn btn-edit">
                                             Edit
                                         </Link>
-                                        <Link to="/user-delete" className="btn btn-delete">
+                                        <div className="btn btn-delete">
                                             Delete
-                                        </Link>
+                                        </div>
                                     </td>
                                 </tr>
                             )

@@ -1,6 +1,6 @@
 .sidebar {
     grid-column: 1/2;
-    grid-template-rows: 2/3;
+    grid-row: 2/3;
     background-color: aqua;
 }
 
