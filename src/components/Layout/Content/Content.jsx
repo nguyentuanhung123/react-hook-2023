@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import AddContact from "../../../views/Contact/AddContact.js";
-import Contact from "../../../views/Contact/Contact.js";
-import ContactView from "../../../views/Contact/ContactView.js";
-import EditContact from "../../../views/Contact/EditContact.js";
-import CRUD from "../../../views/CRUD/CRUD.js";
-import DeleteMultiple from "../../../views/DeleteMultiple/DeleteMultiple.js";
-import NotFound from "../../../views/NotFound/NotFound.js";
+import AddContact from "../../../views/Contact/AddContact.jsx";
+import Contact from "../../../views/Contact/Contact.jsx";
+import ContactView from "../../../views/Contact/ContactView.jsx";
+import EditContact from "../../../views/Contact/EditContact.jsx";
+import CRUD from "../../../views/CRUD/CRUD.jsx";
+import DeleteMultiple from "../../../views/DeleteMultiple/DeleteMultiple.jsx";
+import NotFound from "../../../views/NotFound/NotFound.jsx";
 
 
 const Content = () => {

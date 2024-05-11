@@ -3,7 +3,7 @@ import axios from "axios";
 import useFetch from '../../customize/useFetch.js';
 import './Contact.css'
 import '../../assets/css/button.css'
-import Loading from "../../views/Loading/Loading.js"
+import Loading from "../Loading/Loading.jsx"
 import { Link } from "react-router-dom";
 
 const Contact = () => {
